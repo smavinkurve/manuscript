@@ -2,11 +2,19 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    width: 750px;
+    width: 700px;
+    padding-left: 100px;
     /* background-image: linear-gradient(pink, rgb(223, 90, 223)); */
+    /* probably best to avoid gradients */
 }
 
 h1 {
+    font-size: 96px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+h2 {
     font-size: 72px;
     color: black;
     margin-bottom: 10px;
@@ -33,31 +41,22 @@ p {
     font-weight: bold;
     margin-top: 35px;
     margin-bottom: 35px;
-    padding: 20px;
     border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .pull-quote:hover {
     background-color: #064F41;
-    color: white;
     cursor: crosshair;
 }
 
-.response-title {
-    font-size: 72px;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 50px;
-}
-
-.response-title:hover {
-    color: black;
-}
-
-
 .author {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: medium;
     color: black;
     margin-bottom: 50px;
 }
@@ -66,3 +65,16 @@ p {
     color: #e14aac;
 }
 
+footer {
+    font-size: 16px;
+    font-weight: regular;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: #064F41;
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
