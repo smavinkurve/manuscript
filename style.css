@@ -2,29 +2,48 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    width: 700px;
-    padding-left: 100px;
+    width: 750px;
+    margin-left: 20%;
+    margin-right: auto;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* padding-left: 100px; */
     /* background-image: linear-gradient(pink, rgb(223, 90, 223)); */
     /* probably best to avoid gradients */
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 200px;
+    line-height: 175px;
+    text-align: center;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.feeling:hover {
+ /* color: #F27ECA;
+ font-size: 240px; */
+}
+
+.article-link {
+    color: #F27ECA;
 }
 
 h2 {
-    font-size: 72px;
+    width: 800px;
+    font-size: 90px;
+    line-height: 95px;
     color: black;
     margin-bottom: 10px;
+    margin-top: 150px;
 }
 
 
 p {
-   font-size: 18px;
-   line-height: 30px;
-   color: #064F41;
+   font-size: 20px;
+   line-height: 36px;
+   /* color: #064F41; */
 }
 
 /* p:hover {
@@ -32,11 +51,11 @@ p {
 } */
 
 .pull-quote {
-    background-color: #F27ECA;
+    background-color: #064F41;
     font-size: 24px;
     line-height: 36px;
     text-align: left;
-    width: 800px;
+    /* width: 800px; */
     color: white;
     font-weight: bold;
     margin-top: 35px;
@@ -50,15 +69,30 @@ p {
 }
 
 .pull-quote:hover {
-    background-color: #064F41;
+    background-color: #F27ECA;
     cursor: crosshair;
 }
 
+.large-quote {
+    font-size: 30px;
+    line-height: 42px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.large-quote:hover {
+    color: #e14aac;
+}
+
 .author {
+    /* background-color: #f2adda;
+    border-radius: 20px; */
+    padding: 20px;
     font-size: 28px;
     font-weight: medium;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .response-body:hover {
@@ -72,9 +106,16 @@ footer {
     color: white;
     border-radius: 20px;
     background-color: #064F41;
-    width: 800px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 100px;
 }
+
+/* #top-page {
+    text-align: right;
+    margin-right: 5%;
+    margin-left: auto;
+    position: sticky;
+} */
